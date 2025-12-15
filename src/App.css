@@ -1,0 +1,80 @@
+.App {
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item-button {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.item-button:hover {
+  background-color: #e0e0e0;
+}
+
+.remove-button {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ccc;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-body input {
+  margin-left: 10px;
+  padding: 5px;
+  width: 60%;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
