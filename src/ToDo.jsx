@@ -7,7 +7,6 @@ function ToDo({ user, signOut }) {
   const [todos, setTodos] = useState([]);
   const [formData, setFormData] = useState({ name: "", description: "" });
 
-  // FIXED: Explicitly telling it to use the User Pool (Login) security
   const client = generateClient({ authMode: "userPool" });
 
   useEffect(() => {
