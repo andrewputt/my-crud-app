@@ -10,6 +10,14 @@
       "StackName": "amplify-mycrudapp-main-06cc3",
       "StackId": "arn:aws:cloudformation:us-east-2:660309491427:stack/amplify-mycrudapp-main-06cc3/d41d36d0-d954-11f0-bf87-065c2e1e18d5",
       "AmplifyAppId": "d35bjsynlbu9sf"
+    },
+    "categories": {
+      "auth": {
+        "mycrudapp4b9dd934": {}
+      },
+      "api": {
+        "mycrudapp": {}
+      }
     }
   }
 }
